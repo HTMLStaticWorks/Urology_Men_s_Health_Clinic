@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITALIS | Specialist Men's Health & Urology (Home Variant 2)</title>
+  <meta name="description" content="Executive men's health, urology assessments, male fertility guidance, and discreet specialist consultations.">
+  <meta property="og:title" content="VITALIS | Specialist Men's Health & Urology">
+  <meta property="og:description" content="Private specialist medical clinic focused on discreet, evidence-based care for men's urological and reproductive health needs.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       GLOBAL HEADER & NAVBAR
+       ========================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- SVG Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="VITALIS Urology & Men's Health Home">
+        <svg class="logo-symbol" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 2"/>
+          <path d="M24 8L36 15V24C36 32 28 38 24 40C20 38 12 32 12 24V15L24 8Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-name">VITALIS</span>
+          <span class="brand-tagline">UROLOGY • MEN'S HEALTH</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="home2.html" class="nav-link active">Home 2</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header-actions">
+        <button class="control-btn theme-toggle-btn" aria-label="Toggle Theme"></button>
+        <button class="control-btn rtl-toggle-btn" aria-label="Toggle Layout Direction">RTL</button>
+        <button class="btn btn-primary" data-open-modal="appointment-modal">
+          <span>Confidential Appointment</span>
+          <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="hamburger-btn" aria-label="Open Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MOBILE DRAWER
+       ========================================== -->
+  <div class="mobile-drawer-overlay">
+    <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Drawer">
+      <div class="drawer-header">
+        <div class="brand-text">
+          <span class="brand-name" style="color: #fff;">Menus</span>
+          <span class="brand-tagline" style="color: rgba(255,255,255,0.6);"></span>
+        </div>
+        <button class="drawer-close-btn" aria-label="Close Drawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="home2.html" class="drawer-link active">Home 2</a>
+        <a href="about.html" class="drawer-link">About Clinic</a>
+        <a href="services.html" class="drawer-link">Services</a>
+        <a href="doctors.html" class="drawer-link">Doctors</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </nav>
+
+      <div class="drawer-controls">
+        <button class="control-btn theme-toggle-btn" aria-label="Toggle Theme"></button>
+        <button class="control-btn rtl-toggle-btn" aria-label="Toggle Layout Direction">RTL</button>
+      </div>
+
+      <div style="margin-top: 1rem;">
+        <button class="btn btn-secondary" style="width: 100%;" data-open-modal="appointment-modal">
+          Confidential Appointment →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <!-- ==========================================
+       HOME 2 SECTION 01 — EXECUTIVE HERO WITH QUICK BOOKING
+       ========================================== -->
+  <section class="hero-section" style="padding: 3.5rem 0; min-height: calc(100vh - var(--navbar-height)); display: flex; align-items: center;">
+    <div class="hero-bg-wrapper">
+      <img src="assets/images/5.png" onerror="this.src='assets/images/clinic-reception.jpg'" alt="VITALIS Executive Clinic Lounge" class="hero-bg-img">
+    </div>
+
+    <!-- Pulse Rings -->
+    <div class="hero-pulse-rings" aria-hidden="true">
+      <div class="pulse-ring"></div>
+      <div class="pulse-ring"></div>
+    </div>
+
+    <div class="container home2-hero-grid reveal-on-scroll">
+      <div class="hero-content hero-content-card">
+        <div class="eyebrow" style="margin-bottom: 0.75rem;">EXECUTIVE MEN'S HEALTH CLINIC</div>
+        <h1 class="hero-title">Private Specialist Urological Care</h1>
+        <p class="hero-subtitle">
+          Discreet, evidence-based consultations for urinary health, male fertility assessments, prostate wellness, and proactive urological screening.
+        </p>
+
+        <div class="hero-actions" style="margin-bottom: 1.75rem;">
+          <button class="btn btn-primary" data-open-modal="appointment-modal">
+            <span>Book Confidential Consultation</span>
+            <svg class="cta-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <a href="services.html" class="btn btn-outline">Explore All Services</a>
+        </div>
+
+        <div class="trust-badge-row" style="padding-top: 1rem;">
+          <div class="trust-item">
+            <span class="trust-dot"></span>
+            <span>100% Discreet</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-dot"></span>
+            <span>Senior Urologists</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-dot"></span>
+            <span>Soundproof Suites</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Booking Card inside Hero -->
+      <div class="hero-quick-card" style="background-color: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 2rem 1.75rem; box-shadow: var(--shadow-lg);">
+        <div class="eyebrow" style="margin-bottom: 0.35rem;">QUICK REQUEST</div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 0.35rem;">Book a Private Visit</h3>
+        <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-bottom: 1.25rem;">
+          Select your area of concern and our clinic team will contact you confidentially.
+        </p>
+
+        <form class="js-validate-form" novalidate>
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label class="form-label" style="font-size: 0.8125rem; margin-bottom: 0.35rem;">Full Name <span class="required">*</span></label>
+            <input type="text" class="form-input" required placeholder="Your full name" style="padding: 0.75rem 0.875rem; font-size: 0.875rem;">
+          </div>
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label class="form-label" style="font-size: 0.8125rem; margin-bottom: 0.35rem;">Phone Number <span class="required">*</span></label>
+            <input type="tel" class="form-input" required placeholder="+91 98765 43210" style="padding: 0.75rem 0.875rem; font-size: 0.875rem;">
+          </div>
+          <div class="form-group" style="margin-bottom: 1.25rem;">
+            <label class="form-label" style="font-size: 0.8125rem; margin-bottom: 0.35rem;">Primary Concern</label>
+            <select class="form-select" style="padding: 0.75rem 0.875rem; font-size: 0.875rem;">
+              <option value="Urinary Health">Urinary Health / Flow</option>
+              <option value="Prostate Check">Prostate Health Check</option>
+              <option value="Male Fertility">Male Fertility Assessment</option>
+              <option value="Men's Health">Men's Health & Vitality</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-secondary" style="width: 100%; padding: 0.8125rem;">
+            <span>Request Confidential Visit</span>
+            <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       HOME 2 SECTION 02 — EXECUTIVE HEALTH ASSESSMENTS
+       ========================================== -->
+  <section style="padding: 6.5rem 0; background-color: var(--color-bg-card);">
+    <div class="container">
+      <div class="reveal-on-scroll" style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">STRUCTURED HEALTH PATHWAYS</div>
+        <h2 class="section-title">Specialist Healthcare Packages & Focus Areas</h2>
+        <p class="section-subtitle" style="margin-inline: auto;">
+          Designed for privacy, thorough diagnostic review, and clear medical guidance.
+        </p>
+      </div>
+
+      <div class="services-grid-explorer">
+        <!-- Card 1 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/6.png" onerror="this.src='assets/images/urology-care.jpg'" alt="Prostate Health Evaluation" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Prostate & Urinary Check</h3>
+            <p>Comprehensive evaluation for urinary flow changes, nocturnal frequency, BPH assessment, and PSA blood testing review.</p>
+            <button class="btn btn-outline" style="margin-top: auto;" data-open-modal="appointment-modal">Schedule Consultation →</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/7.png" onerror="this.src='assets/images/fertility-care.jpg'" alt="Male Fertility Assessment" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Male Fertility Assessment</h3>
+            <p>Discreet diagnostic review, semen parameter interpretation, hormonal screening, and reproductive care guidance.</p>
+            <button class="btn btn-outline" style="margin-top: auto;" data-open-modal="appointment-modal">Schedule Consultation →</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/8.png" onerror="this.src='assets/images/mens-health.jpg'" alt="Men's Health & Vitality" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Men's Wellness & Vitality</h3>
+            <p>Confidential doctor consultation addressing age-related health shifts, sexual health concerns, and energy optimization.</p>
+            <button class="btn btn-outline" style="margin-top: auto;" data-open-modal="appointment-modal">Schedule Consultation →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       HOME 2 SECTION 03 — CLINICAL STATS & METRICS
+       ========================================== -->
+  <section class="clinical-stats-section">
+    <div class="container">
+      <div class="clinical-stats-grid reveal-on-scroll">
+        <!-- Stat 1 -->
+        <div class="stat-card">
+          <div class="stat-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="stat-number">100%</div>
+          <h3 class="stat-title">Discreet & Private</h3>
+          <p class="stat-desc">Individual private consultation suites ensuring total patient confidentiality.</p>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="stat-card">
+          <div class="stat-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          </div>
+          <div class="stat-number">15+</div>
+          <h3 class="stat-title">Years Experience</h3>
+          <p class="stat-desc">Specialist urologists and senior reproductive healthcare clinicians.</p>
+        </div>
+
+        <!-- Stat 3 -->
+        <div class="stat-card">
+          <div class="stat-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="stat-number">0%</div>
+          <h3 class="stat-title">Impersonal Waiting</h3>
+          <p class="stat-desc">Streamlined scheduling to protect your time and ensure immediate privacy.</p>
+        </div>
+
+        <!-- Stat 4 -->
+        <div class="stat-card">
+          <div class="stat-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+          </div>
+          <div class="stat-number">1-on-1</div>
+          <h3 class="stat-title">Dedicated Care</h3>
+          <p class="stat-desc">Personalized care planning explained clearly without complex jargon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       HOME 2 SECTION 04 — SPECIALIST CLINICIANS
+       ========================================== -->
+  <section style="padding: 6.5rem 0; background-color: var(--color-bg-card);">
+    <div class="container">
+      <div class="reveal-on-scroll" style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">OUR SPECIALISTS</div>
+        <h2 class="section-title">Consult with Experienced Urologists</h2>
+        <p class="section-subtitle" style="margin-inline: auto;">
+          Meet the medical team providing discreet, evidence-based healthcare at VITALIS.
+        </p>
+      </div>
+
+      <div class="doctors-grid">
+        <div class="doctor-card reveal-on-scroll">
+          <img src="assets/images/doctor-arjun.jpg" alt="Dr. Arjun Mehra" class="doctor-card-img" loading="lazy">
+          <div class="doctor-card-info">
+            <h3 class="doctor-name">Dr. Arjun Mehra</h3>
+            <div class="doctor-role">Consultant Urologist</div>
+            <button class="btn btn-outline" style="width: 100%;" 
+              data-open-modal="doctor-modal" 
+              data-doctor-name="Dr. Arjun Mehra" 
+              data-doctor-role="Consultant Urologist" 
+              data-doctor-img="assets/images/doctor-arjun.jpg" 
+              data-doctor-bio="Dr. Arjun Mehra specializes in complex urological conditions, benign prostatic enlargement, and urinary flow assessments.">
+              Read Biography →
+            </button>
+          </div>
+        </div>
+
+        <div class="doctor-card reveal-on-scroll">
+          <img src="assets/images/doctor-rahul.jpg" alt="Dr. Rahul Sen" class="doctor-card-img" loading="lazy">
+          <div class="doctor-card-info">
+            <h3 class="doctor-name">Dr. Rahul Sen</h3>
+            <div class="doctor-role">Urologist & Men's Health Specialist</div>
+            <button class="btn btn-outline" style="width: 100%;" 
+              data-open-modal="doctor-modal" 
+              data-doctor-name="Dr. Rahul Sen" 
+              data-doctor-role="Urologist & Men's Health Specialist" 
+              data-doctor-img="assets/images/doctor-rahul.jpg" 
+              data-doctor-bio="Dr. Rahul Sen focuses on general men's health, sexual wellness consultations, and proactive preventive urology.">
+              Read Biography →
+            </button>
+          </div>
+        </div>
+
+        <div class="doctor-card reveal-on-scroll">
+          <img src="assets/images/doctor-kiran.jpg" alt="Dr. Kiran Malhotra" class="doctor-card-img" loading="lazy">
+          <div class="doctor-card-info">
+            <h3 class="doctor-name">Dr. Kiran Malhotra</h3>
+            <div class="doctor-role">Reproductive & Fertility Specialist</div>
+            <button class="btn btn-outline" style="width: 100%;" 
+              data-open-modal="doctor-modal" 
+              data-doctor-name="Dr. Kiran Malhotra" 
+              data-doctor-role="Reproductive & Male Fertility Specialist" 
+              data-doctor-img="assets/images/doctor-kiran.jpg" 
+              data-doctor-bio="Dr. Kiran Malhotra dedicates his practice to male fertility evaluations, semen analysis interpretation, and family planning support.">
+              Read Biography →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- ==========================================
+       HOME 2 SECTION 04.5 — PATIENT REFLECTIONS & TESTIMONIALS
+       ========================================== -->
+  <section class="testimonials-section home2-testimonials-section" style="padding: 6.5rem 0; background-color: var(--color-bg-secondary);">
+    <div class="container">
+      <div class="home2-testimonials-split">
+        <!-- Left Column: Trust Summary & Rating Badge Card -->
+        <div class="home2-testimonial-summary-card reveal-on-scroll">
+          <div class="eyebrow">PATIENT REFLECTIONS</div>
+          <h2 class="section-title" style="font-size: 2.15rem; margin-bottom: 0.875rem;">Considered Care Through Patient Experience</h2>
+          <p class="section-subtitle" style="margin-bottom: 1.5rem; font-size: 0.95rem;">
+            Discreet feedback reflecting our commitment to privacy, specialist clarity, and respectful consultation.
+          </p>
+
+          <div class="rating-trust-box">
+            <div class="rating-score-large">
+              <span class="score-num">4.9</span>
+              <span class="score-denom">/ 5.0</span>
+            </div>
+            <div class="testimonial-stars" style="margin-bottom: 0.5rem;" aria-label="5 out of 5 rating">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <div class="rating-trust-sub">Based on verified post-consultation feedback</div>
+            <div class="verified-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% Confidential Protocols</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Horizontal Cards Stack -->
+        <div class="home2-testimonials-stack reveal-on-scroll">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card-horizontal">
+            <div class="avatar-badge">EP</div>
+            <div class="testimonial-card-content">
+              <div class="testimonial-card-header">
+                <div>
+                  <span class="patient-info-title">Executive Patient, 52</span>
+                  <span class="verified-check-tag">✓ Verified Patient</span>
+                </div>
+                <span class="patient-focus-tag">Prostate Check</span>
+              </div>
+              <p class="testimonial-quote-text" style="margin-bottom: 0.5rem;">
+                “Discussing prostate health was something I had delayed for months out of hesitation. The discreet environment at VITALIS made me feel comfortable from the moment I arrived.”
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card-horizontal">
+            <div class="avatar-badge">DM</div>
+            <div class="testimonial-card-content">
+              <div class="testimonial-card-header">
+                <div>
+                  <span class="patient-info-title">Patient, 46</span>
+                  <span class="verified-check-tag">✓ Verified Patient</span>
+                </div>
+                <span class="patient-focus-tag">Urinary Health</span>
+              </div>
+              <p class="testimonial-quote-text" style="margin-bottom: 0.5rem;">
+                “Clear, factual explanations without medical alarmism. Dr. Mehra took the time to explain my diagnostic results in plain language.”
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card-horizontal">
+            <div class="avatar-badge">CV</div>
+            <div class="testimonial-card-content">
+              <div class="testimonial-card-header">
+                <div>
+                  <span class="patient-info-title">Couple's Visit, 38</span>
+                  <span class="verified-check-tag">✓ Verified Patient</span>
+                </div>
+                <span class="patient-focus-tag">Male Fertility</span>
+              </div>
+              <p class="testimonial-quote-text" style="margin-bottom: 0.5rem;">
+                “Professionalism and utmost privacy during our male fertility evaluation. We felt respected and fully supported throughout the process.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Global Footer & Modals -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.75rem;">
+            <svg class="logo-symbol" viewBox="0 0 48 48" fill="none" style="color: var(--color-secondary);">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 2"/>
+              <path d="M24 8L36 15V24C36 32 28 38 24 40C20 38 12 32 12 24V15L24 8Z" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-name">VITALIS</span>
+              <span class="brand-tagline" style="color: rgba(255,255,255,0.5);">MEN'S HEALTH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Private specialist care focused on urology, male fertility, and men's health. Discreet, patient-centered consultations.
+          </p>
+          <div class="footer-social-links" aria-label="Social Media Links">
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Twitter X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home 1</a></li>
+            <li><a href="home2.html" class="footer-link">Home 2</a></li>
+            <li><a href="services.html" class="footer-link">Services</a></li>
+            <li><a href="doctors.html" class="footer-link">Doctors</a></li>
+            <li><a href="about.html" class="footer-link">About Clinic</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">PATIENT INFO</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html" class="footer-link">Contact Clinic</a></li>
+            <li><a href="#" class="footer-link" data-open-modal="appointment-modal">Confidential Appointment</a></li>
+            <li><a href="#" class="footer-link" data-open-modal="info-modal" data-info-title="Medical Disclaimer" data-info-text="Educational content provided on this website is intended for general information purposes only and does not substitute professional medical advice.">Medical Disclaimer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">CONTACT</h4>
+          <ul class="footer-links" style="font-size: 0.9375rem; color: rgba(255,255,255,0.7);">
+            <li>Phone: +91 00000 00000</li>
+            <li>Email: hello@example.com</li>
+            <li>123 Wellness Avenue, Your City, India</li>
+            <li>Hours: Mon – Sat (9:00 AM – 6:00 PM)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 VITALIS UROLOGY & MEN'S HEALTH. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Modal -->
+  <div id="appointment-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="app-modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="eyebrow">DISCREET BOOKING</div>
+        <h3 id="app-modal-title" class="modal-title">Request a Confidential Appointment</h3>
+        <p class="modal-description">
+          Tell us a little about your preferred appointment and our clinic team will contact you directly to confirm.
+        </p>
+      </div>
+
+      <form class="js-validate-form" novalidate>
+        <div class="form-group">
+          <label class="form-label">Full Name <span class="required">*</span></label>
+          <input type="text" class="form-input" required placeholder="e.g. Rahul Sharma">
+          <span class="form-error-msg">Please enter your full name.</span>
+        </div>
+
+        <div class="form-grid-2col">
+          <div class="form-group">
+            <label class="form-label">Email Address <span class="required">*</span></label>
+            <input type="email" class="form-input" required placeholder="name@example.com">
+            <span class="form-error-msg">Please enter a valid email.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Phone Number <span class="required">*</span></label>
+            <input type="tel" class="form-input" required placeholder="+91 98765 43210">
+            <span class="form-error-msg">Please enter a valid phone number.</span>
+          </div>
+        </div>
+
+        <div class="form-grid-2col">
+          <div class="form-group">
+            <label class="form-label">Area of Concern</label>
+            <select class="form-select">
+              <option value="Urinary Health">Urinary Health</option>
+              <option value="Prostate Health">Prostate Health</option>
+              <option value="Kidney / Bladder">Kidney / Bladder</option>
+              <option value="Male Fertility">Male Fertility</option>
+              <option value="Men's Health">Men's Health</option>
+              <option value="Sexual Health">Sexual Health</option>
+              <option value="Preventive Screening">Preventive Screening</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Preferred Contact Method</label>
+            <select class="form-select">
+              <option value="Phone Call">Phone Call</option>
+              <option value="Email">Email</option>
+              <option value="WhatsApp">WhatsApp</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-actions-row">
+          <button type="button" class="btn btn-outline modal-close-btn-trigger">Maybe Later</button>
+          <button type="submit" class="btn btn-secondary">Submit Request →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Doctor Bio Modal -->
+  <div id="doctor-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="doc-modal-name">
+    <div class="modal-container" style="max-width: 680px;">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div style="display: grid; grid-template-columns: 200px 1fr; gap: 2rem; align-items: start;">
+        <img id="doc-modal-img" src="assets/images/doctor-arjun.jpg" alt="Doctor Portrait" style="width: 100%; height: 260px; object-fit: cover; border-radius: var(--radius-sm);">
+        <div>
+          <div class="eyebrow">SPECIALIST CLINICIAN</div>
+          <h3 id="doc-modal-name" class="modal-title" style="margin-bottom: 0.25rem;">Dr. Arjun Mehra</h3>
+          <div id="doc-modal-role" style="font-weight: 700; color: var(--color-secondary); margin-bottom: 1rem;">Consultant Urologist</div>
+          <p id="doc-modal-bio" style="font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 1.5rem;">
+            Bio details...
+          </p>
+          <button class="btn btn-secondary" data-open-modal="appointment-modal">Book Consultation →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Modal -->
+  <div id="info-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="eyebrow">CLINICAL INFORMATION</div>
+        <h3 id="info-modal-title" class="modal-title">General Medical Information</h3>
+      </div>
+
+      <div id="info-modal-text" style="color: var(--color-text-muted); line-height: 1.6; margin-bottom: 1.5rem;">
+        Educational content provided on this website is intended for general information purposes only and does not substitute professional medical evaluation.
+      </div>
+
+      <div style="display: flex; justify-content: flex-end;">
+        <button class="btn btn-primary" data-open-modal="appointment-modal">Request Appointment →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo Success Modal -->
+  <div id="success-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="success-modal-title">
+    <div class="modal-container" style="max-width: 520px; text-align: center;">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div style="width: 60px; height: 60px; border-radius: 50%; background-color: var(--color-secondary-light); color: var(--color-secondary); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+
+      <h3 id="success-modal-title" class="modal-title">Request Received</h3>
+      <p style="color: var(--color-text-muted); font-size: 0.9375rem; margin-bottom: 1.5rem; line-height: 1.6;">
+        Thank you. This demonstration form has received your request locally. A production implementation would connect this form to the clinic's secure appointment system.
+      </p>
+
+      <button class="btn btn-primary modal-close-btn-trigger">Close Window</button>
+    </div>
+  </div>
+
+  <button class="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

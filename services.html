@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urology & Men's Health Services | VITALIS</title>
+  <meta name="description" content="Explore specialist urology services including prostate care, urinary health, male fertility evaluation, sexual wellness and preventive urological screening.">
+  <meta property="og:title" content="Urology & Men's Health Services | VITALIS">
+  <meta property="og:description" content="Comprehensive specialist care across urology, male fertility, and men's health in a private clinic setting.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       GLOBAL HEADER & NAVBAR
+       ========================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="VITALIS Urology & Men's Health Home">
+        <svg class="logo-symbol" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 2"/>
+          <path d="M24 8L36 15V24C36 32 28 38 24 40C20 38 12 32 12 24V15L24 8Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-name">VITALIS</span>
+          <span class="brand-tagline">UROLOGY • MEN'S HEALTH</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="home2.html" class="nav-link">Home 2</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="control-btn theme-toggle-btn" aria-label="Toggle Theme"></button>
+        <button class="control-btn rtl-toggle-btn" aria-label="Toggle Layout Direction">RTL</button>
+        <button class="btn btn-primary" data-open-modal="appointment-modal">
+          <span>Confidential Appointment</span>
+          <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="hamburger-btn" aria-label="Open Navigation Drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay">
+    <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Drawer">
+      <div class="drawer-header">
+        <div class="brand-text">
+          <span class="brand-name" style="color: #fff;">Menus</span>
+          <span class="brand-tagline" style="color: rgba(255,255,255,0.6);"></span>
+        </div>
+        <button class="drawer-close-btn" aria-label="Close Drawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="home2.html" class="drawer-link">Home 2</a>
+        <a href="about.html" class="drawer-link">About Clinic</a>
+        <a href="services.html" class="drawer-link active">Services</a>
+        <a href="doctors.html" class="drawer-link">Doctors</a>
+        <a href="contact.html" class="drawer-link">Contact Us</a>
+      </nav>
+
+      <div class="drawer-controls">
+        <button class="control-btn theme-toggle-btn" aria-label="Toggle Theme"></button>
+        <button class="control-btn rtl-toggle-btn" aria-label="Toggle Layout Direction">RTL</button>
+      </div>
+
+      <div style="margin-top: 1rem;">
+        <button class="btn btn-secondary" style="width: 100%;" data-open-modal="appointment-modal">
+          Confidential Appointment →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <!-- ==========================================
+       SERVICES SECTION 01 — HERO
+       ========================================== -->
+  <section class="hero-section page-hero-section">
+    <div class="hero-bg-wrapper">
+      <img src="assets/images/12.png" onerror="this.src='assets/images/clinic-interior.jpg'" alt="VITALIS Clinic Interior Architecture" class="hero-bg-img">
+    </div>
+
+    <div class="container hero-content reveal-on-scroll">
+      <div class="eyebrow">CLINICAL EXCELLENCE</div>
+      <h1 class="hero-title">Specialist Care Across Urology & Men's Health</h1>
+      <p class="hero-subtitle">
+        From urinary and prostate concerns to fertility and preventive care, explore the areas our specialists support.
+      </p>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-open-modal="appointment-modal">
+          <span>Book a Consultation</span>
+          <svg class="cta-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION 02 — UROLOGICAL CONDITIONS
+       ========================================== -->
+  <section style="padding: 6rem 0; background-color: var(--color-bg-card);">
+    <div class="container">
+      <div class="reveal-on-scroll" style="text-align: center; max-width: 720px; margin-inline: auto;">
+        <div class="eyebrow">SPECIALIST CARE AREAS</div>
+        <h2 class="section-title">Comprehensive Urological Services</h2>
+        <p class="section-subtitle" style="margin-inline: auto;">
+          Every care pathway is tailored to your individual clinical evaluation and privacy needs.
+        </p>
+      </div>
+
+      <div class="services-grid-explorer">
+        <!-- Service Item 1 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/13.png" onerror="this.src='assets/images/urology-care.jpg'" alt="Urinary Health Consultation" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Urinary Health</h3>
+            <p>Support for concerns such as frequent urination, urgency, difficulty urinating and other urinary symptoms.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: Bladder function & urinary flow assessment
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Urinary Health Consultation" 
+              data-info-text="Urinary symptoms like frequency, nighttime waking, or hesitancy are common. Our specialist team provides non-invasive diagnostic assessments and evidence-based care guidance.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Item 2 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/14.png" onerror="this.src='assets/images/private-consultation.jpg'" alt="Prostate Health Evaluation" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Prostate Health</h3>
+            <p>Evaluation and management discussions for prostate-related concerns including benign enlargement and screening.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: BPH, PSA test review & symptom management
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Prostate Health Care" 
+              data-info-text="Prostate health reviews involve comprehensive discussions regarding urinary stream changes, PSA blood testing, and personalized risk assessments without unnecessary alarm.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Item 3 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/15.png" onerror="this.src='assets/images/clinic-hero.jpg'" alt="Kidney & Bladder Health" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Kidney & Bladder Health</h3>
+            <p>Specialist assessment for relevant kidney and bladder conditions, structural evaluations and chronic care planning.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: Infection management & organ health review
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Kidney & Bladder Health" 
+              data-info-text="Diagnostic evaluation of upper and lower urinary tract symptoms, recurrent infections, and organ function assessments.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Item 4 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/preventive-screening.jpg" alt="Stone Care Evaluation" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Stone Care</h3>
+            <p>Evaluation and treatment planning for urinary stone-related concerns, metabolic analysis, and recurrence prevention.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: Stone risk review & preventive hydration plans
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Urinary Stone Care" 
+              data-info-text="Evaluation of renal and ureteral stones, pain management pathways, and dietary/metabolic counseling to minimize recurrence.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Item 5 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/mens-health.jpg" alt="Male Sexual Health Consultation" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Male Sexual Health</h3>
+            <p>Private consultations for men's sexual health concerns, erectile health, vascular assessment and confidential support.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: Vascular, nerve & psychological factors
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Male Sexual Health" 
+              data-info-text="Confidential doctor consultations addressing sexual health, erectile function, and vascular wellness in a judgment-free setting.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Item 6 -->
+        <div class="service-card-detailed reveal-on-scroll">
+          <img src="assets/images/confidential-consultation.jpg" alt="Men's Hormonal Health" class="service-card-img" loading="lazy">
+          <div class="service-card-content">
+            <h3>Men's Hormonal Health</h3>
+            <p>Evaluation of relevant symptoms like persistent fatigue, low vitality, and specialist guidance where appropriate.</p>
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 1rem;">
+              Focus: Endocrine symptom review & metabolic advice
+            </div>
+            <button class="btn btn-outline" style="margin-top: auto; width: 100%;" 
+              data-open-modal="info-modal" 
+              data-info-title="Men's Hormonal Health" 
+              data-info-text="Clinical review of age-related hormonal shifts, symptom evaluation, laboratory testing discussions, and evidence-based management.">
+              Learn More & Info →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION 03 — FERTILITY & REPRODUCTIVE HEALTH
+       ========================================== -->
+  <section style="padding: 6rem 0; background-color: var(--color-bg-primary);">
+    <div class="container">
+      <div class="story-grid reveal-on-scroll">
+        <div>
+          <div class="eyebrow">REPRODUCTIVE HEALTH</div>
+          <h2 class="section-title">Fertility Care with Privacy and Clarity</h2>
+          <p class="section-subtitle" style="margin-bottom: 1.5rem;">
+            Male fertility evaluation requires clarity and emotional sensitivity. Our specialists focus on thorough diagnostic reviews and supportive guidance.
+          </p>
+
+          <ul style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 2rem; font-size: 0.9375rem; color: var(--color-text-muted);">
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Male fertility evaluation & medical history review</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Semen analysis interpretation & consultation</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Lifestyle, nutritional & environmental factor discussions</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.75rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Specialist treatment pathway guidance & referrals</span>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary" data-open-modal="appointment-modal">Book Fertility Consultation →</button>
+        </div>
+
+        <div class="story-image-frame">
+          <img src="assets/images/16.png" onerror="this.src='assets/images/fertility-care.jpg'" alt="Male Fertility Consultation" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Fertility Evaluation Roadmap — Premium Redesign -->
+      <div class="fertility-roadmap-wrapper reveal-on-scroll">
+        <div class="fertility-roadmap-header">
+          <div class="eyebrow">4-STAGE EVALUATION PATHWAY</div>
+          <h3 class="fertility-roadmap-title">Our Fertility Evaluation Roadmap</h3>
+          <p class="fertility-roadmap-sub">A structured, private pathway — from first conversation to personalised care direction.</p>
+        </div>
+
+        <div class="fertility-roadmap-track">
+          <!-- Step 1 -->
+          <div class="roadmap-phase-card phase-1">
+            <div class="roadmap-phase-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="roadmap-phase-num">01</div>
+            <h4 class="roadmap-phase-title">Consultation</h4>
+            <p class="roadmap-phase-desc">Private, unhurried conversation to understand your health history, relationship timeline, and personal medical background.</p>
+            <div class="roadmap-phase-tag">Confidential — No Forms Needed</div>
+          </div>
+
+          <div class="roadmap-connector" aria-hidden="true">
+            <svg width="40" height="16" viewBox="0 0 40 16" fill="none"><path d="M0 8 L30 8 M26 4 L34 8 L26 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="roadmap-phase-card phase-2">
+            <div class="roadmap-phase-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+            <div class="roadmap-phase-num">02</div>
+            <h4 class="roadmap-phase-title">Evaluation</h4>
+            <p class="roadmap-phase-desc">Targeted diagnostic reviews, semen parameter interpretation, hormonal panel analysis, and relevant physical assessment.</p>
+            <div class="roadmap-phase-tag">In-House · Same Visit</div>
+          </div>
+
+          <div class="roadmap-connector" aria-hidden="true">
+            <svg width="40" height="16" viewBox="0 0 40 16" fill="none"><path d="M0 8 L30 8 M26 4 L34 8 L26 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="roadmap-phase-card phase-3">
+            <div class="roadmap-phase-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
+            </div>
+            <div class="roadmap-phase-num">03</div>
+            <h4 class="roadmap-phase-title">Understanding</h4>
+            <p class="roadmap-phase-desc">Clear, alarmism-free explanation of diagnostic findings, contributing lifestyle and physiological factors, and realistic clinical expectations.</p>
+            <div class="roadmap-phase-tag">Plain Language Report</div>
+          </div>
+
+          <div class="roadmap-connector" aria-hidden="true">
+            <svg width="40" height="16" viewBox="0 0 40 16" fill="none"><path d="M0 8 L30 8 M26 4 L34 8 L26 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="roadmap-phase-card phase-4">
+            <div class="roadmap-phase-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="roadmap-phase-num">04</div>
+            <h4 class="roadmap-phase-title">Care Plan</h4>
+            <p class="roadmap-phase-desc">Tailored fertility optimization pathway, targeted lifestyle guidance, specialist treatment options, or coordinated reproductive referral.</p>
+            <div class="roadmap-phase-tag">Personalised to You</div>
+          </div>
+        </div>
+
+        <!-- CTA Banner at bottom of roadmap -->
+        <div class="roadmap-cta-bar">
+          <div class="roadmap-cta-left">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Your journey begins with a single, completely confidential conversation.</span>
+          </div>
+          <button class="btn btn-secondary" data-open-modal="appointment-modal">
+            Begin Your Evaluation →
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION 04 — PREVENTIVE MEN'S HEALTH
+       ========================================== -->
+  <section class="proactive-wellness-section">
+    <div class="container">
+      <div class="reveal-on-scroll" style="text-align: center; max-width: 720px; margin-inline: auto; margin-bottom: 4rem;">
+        <div class="eyebrow">PROACTIVE WELLNESS</div>
+        <h2 class="section-title">Prevention Starts with Awareness</h2>
+        <p class="section-subtitle" style="margin-inline: auto;">
+          Regular health check-ups and structured screening empower you to take full control of your urological health before concerns arise.
+        </p>
+      </div>
+
+      <div class="wellness-cards-grid reveal-on-scroll">
+        <!-- Card 1: Know -->
+        <div class="wellness-card">
+          <div class="wellness-card-img-wrap">
+            <img src="assets/images/mens-health.jpg" alt="Know Your Health Risks" class="wellness-card-img" loading="lazy">
+            <div class="wellness-card-overlay"></div>
+            <div class="wellness-card-step-badge">01</div>
+          </div>
+          <div class="wellness-card-body">
+            <div class="wellness-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3 class="wellness-card-title">Know</h3>
+            <p class="wellness-card-desc">Understand your symptoms, family medical history, and age-related personal risk factors with specialist guidance.</p>
+            <div class="wellness-card-tag">Personal Risk Awareness</div>
+          </div>
+        </div>
+
+        <!-- Card 2: Screen -->
+        <div class="wellness-card">
+          <div class="wellness-card-img-wrap">
+            <img src="assets/images/17.png" onerror="this.src='assets/images/preventive-screening.jpg'" alt="Structured Screening" class="wellness-card-img" loading="lazy">
+            <div class="wellness-card-overlay"></div>
+            <div class="wellness-card-step-badge">02</div>
+          </div>
+          <div class="wellness-card-body">
+            <div class="wellness-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3 class="wellness-card-title">Screen</h3>
+            <p class="wellness-card-desc">Discuss appropriate urological screening tests with a qualified specialist who tailors recommendations to your individual profile.</p>
+            <div class="wellness-card-tag">Specialist Screening</div>
+          </div>
+        </div>
+
+        <!-- Card 3: Monitor -->
+        <div class="wellness-card">
+          <div class="wellness-card-img-wrap">
+            <img src="assets/images/private-consultation.jpg" alt="Health Monitoring" class="wellness-card-img" loading="lazy">
+            <div class="wellness-card-overlay"></div>
+            <div class="wellness-card-step-badge">03</div>
+          </div>
+          <div class="wellness-card-body">
+            <div class="wellness-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 14 4 10 20 6 12 2 12"/></svg>
+            </div>
+            <h3 class="wellness-card-title">Monitor</h3>
+            <p class="wellness-card-desc">Track relevant health indicators, urinary patterns, and biomarker trends over time with ongoing specialist review.</p>
+            <div class="wellness-card-tag">Ongoing Health Tracking</div>
+          </div>
+        </div>
+
+        <!-- Card 4: Act -->
+        <div class="wellness-card">
+          <div class="wellness-card-img-wrap">
+            <img src="assets/images/confidential-consultation.jpg" alt="Seek Specialist Care" class="wellness-card-img" loading="lazy">
+            <div class="wellness-card-overlay"></div>
+            <div class="wellness-card-step-badge">04</div>
+          </div>
+          <div class="wellness-card-body">
+            <div class="wellness-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3 class="wellness-card-title">Act</h3>
+            <p class="wellness-card-desc">Seek prompt specialist care whenever new or changing symptoms arise — early action leads to the best clinical outcomes.</p>
+            <div class="wellness-card-tag">Prompt Clinical Action</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION 05 — CTA
+       ========================================== -->
+  <section class="final-cta-section">
+    <div class="container final-cta-container reveal-on-scroll">
+      <h2>Not Sure Which Service You Need?</h2>
+      <p>
+        You don't need to know the diagnosis before contacting us. Start with a confidential consultation and discuss your concerns with our team.
+      </p>
+
+      <div class="final-cta-buttons">
+        <button class="btn btn-secondary" data-open-modal="appointment-modal">
+          <span>Book Confidential Appointment</span>
+          <svg class="cta-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==========================================
+       GLOBAL FOOTER & MODALS (Reused)
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 0.75rem;">
+            <svg class="logo-symbol" viewBox="0 0 48 48" fill="none" style="color: var(--color-secondary);">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 2"/>
+              <path d="M24 8L36 15V24C36 32 28 38 24 40C20 38 12 32 12 24V15L24 8Z" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-name">VITALIS</span>
+              <span class="brand-tagline" style="color: rgba(255,255,255,0.5);">MEN'S HEALTH</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Private specialist care focused on urology, male fertility, and men's health. Discreet, patient-centered consultations.
+          </p>
+          <div class="footer-social-links" aria-label="Social Media Links">
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Twitter X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="services.html" class="footer-link">Services</a></li>
+            <li><a href="doctors.html" class="footer-link">Doctors</a></li>
+            <li><a href="about.html" class="footer-link">About Clinic</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">PATIENT INFO</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html" class="footer-link">Contact Clinic</a></li>
+            <li><a href="#" class="footer-link" data-open-modal="appointment-modal">Confidential Appointment</a></li>
+            <li><a href="#" class="footer-link" data-open-modal="info-modal" data-info-title="Medical Disclaimer" data-info-text="Educational content provided on this website is intended for general information purposes only and does not substitute professional medical advice.">Medical Disclaimer</a></li>
+            <li><a href="#" class="footer-link">Privacy Statement</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">CONTACT</h4>
+          <ul class="footer-links" style="font-size: 0.9375rem; color: rgba(255,255,255,0.7);">
+            <li>Phone: +91 00000 00000</li>
+            <li>Email: hello@example.com</li>
+            <li>123 Wellness Avenue, Your City, India</li>
+            <li>Hours: Mon – Sat (9:00 AM – 6:00 PM)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 VITALIS UROLOGY & MEN'S HEALTH. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Appointment Modal -->
+  <div id="appointment-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="app-modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="eyebrow">DISCREET BOOKING</div>
+        <h3 id="app-modal-title" class="modal-title">Request a Confidential Appointment</h3>
+        <p class="modal-description">
+          Tell us a little about your preferred appointment and our clinic team will contact you directly to confirm.
+        </p>
+      </div>
+
+      <form class="js-validate-form" novalidate>
+        <div class="form-group">
+          <label class="form-label">Full Name <span class="required">*</span></label>
+          <input type="text" class="form-input" required placeholder="e.g. Rahul Sharma">
+          <span class="form-error-msg">Please enter your full name.</span>
+        </div>
+
+        <div class="form-grid-2col">
+          <div class="form-group">
+            <label class="form-label">Email Address <span class="required">*</span></label>
+            <input type="email" class="form-input" required placeholder="name@example.com">
+            <span class="form-error-msg">Please enter a valid email.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Phone Number <span class="required">*</span></label>
+            <input type="tel" class="form-input" required placeholder="+91 98765 43210">
+            <span class="form-error-msg">Please enter a valid phone number.</span>
+          </div>
+        </div>
+
+        <div class="form-grid-2col">
+          <div class="form-group">
+            <label class="form-label">Area of Concern</label>
+            <select class="form-select">
+              <option value="Urinary Health">Urinary Health</option>
+              <option value="Prostate Health">Prostate Health</option>
+              <option value="Kidney / Bladder">Kidney / Bladder</option>
+              <option value="Male Fertility">Male Fertility</option>
+              <option value="Men's Health">Men's Health</option>
+              <option value="Sexual Health">Sexual Health</option>
+              <option value="Preventive Screening">Preventive Screening</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Preferred Contact Method</label>
+            <select class="form-select">
+              <option value="Phone Call">Phone Call</option>
+              <option value="Email">Email</option>
+              <option value="WhatsApp">WhatsApp</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-actions-row">
+          <button type="button" class="btn btn-outline modal-close-btn-trigger">Maybe Later</button>
+          <button type="submit" class="btn btn-secondary">Submit Request →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Info Modal -->
+  <div id="info-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="eyebrow">CLINICAL INFORMATION</div>
+        <h3 id="info-modal-title" class="modal-title">General Medical Information</h3>
+      </div>
+
+      <div id="info-modal-text" style="color: var(--color-text-muted); line-height: 1.6; margin-bottom: 1.5rem;">
+        Educational content provided on this website is intended for general information purposes only and does not substitute professional medical evaluation.
+      </div>
+
+      <div style="padding: 1rem; background-color: var(--color-bg-primary); border-radius: var(--radius-sm); font-size: 0.8125rem; color: var(--color-text-light); margin-bottom: 1.5rem;">
+        * This information is for general education and does not replace consultation with a qualified healthcare professional.
+      </div>
+
+      <div style="display: flex; justify-content: flex-end;">
+        <button class="btn btn-primary" data-open-modal="appointment-modal">Request Appointment →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo Success Modal -->
+  <div id="success-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="success-modal-title">
+    <div class="modal-container" style="max-width: 520px; text-align: center;">
+      <button class="modal-close-btn" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div style="width: 60px; height: 60px; border-radius: 50%; background-color: var(--color-secondary-light); color: var(--color-secondary); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+
+      <h3 id="success-modal-title" class="modal-title">Request Received</h3>
+      <p style="color: var(--color-text-muted); font-size: 0.9375rem; margin-bottom: 1.5rem; line-height: 1.6;">
+        Thank you. This demonstration form has received your request locally. A production implementation would connect this form to the clinic's secure appointment system.
+      </p>
+
+      <button class="btn btn-primary modal-close-btn-trigger">Close Window</button>
+    </div>
+  </div>
+
+  <button class="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
