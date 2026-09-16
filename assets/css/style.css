@@ -3884,19 +3884,17 @@ body {
   position: relative;
 }
 
-/* Asymmetric 2-col mosaic */
+/* 3-Column Consultation Experience Grid */
 .mosaic-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  grid-template-rows: auto;
-  gap: 1.25rem;
-  margin-bottom: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+  align-items: stretch;
 }
 
 .mosaic-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+  display: contents;
 }
 
 /* Mosaic card base */
@@ -3904,16 +3902,20 @@ body {
   position: relative;
   border-radius: var(--radius-md);
   overflow: hidden;
+  height: 440px;
+  box-shadow: 0 10px 30px rgba(16, 42, 67, 0.08);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
   cursor: default;
 }
 
-.mosaic-tall {
-  height: 520px;
+.mosaic-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(16, 42, 67, 0.16);
 }
 
+.mosaic-tall,
 .mosaic-half {
-  flex: 1;
-  min-height: 245px;
+  height: 100%;
 }
 
 .mosaic-img {
@@ -3981,18 +3983,12 @@ body {
 }
 
 .mosaic-card-desc {
-  font-size: 0.8125rem;
-  color: rgba(255, 255, 255, 0.78);
-  line-height: 1.6;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.55;
   max-width: 380px;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.4s ease 0.05s, transform 0.4s ease 0.05s;
-}
-
-.mosaic-card:hover .mosaic-card-desc {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }
 
 /* Trust counter strip */
@@ -4051,35 +4047,31 @@ body {
   flex-shrink: 0;
 }
 
-/* Responsive mosaic */
-@media (max-width: 900px) {
+/* Responsive mosaic grid */
+@media (max-width: 992px) {
+  .mosaic-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mosaic-card {
+    height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
   .mosaic-grid {
     grid-template-columns: 1fr;
   }
-  .mosaic-tall {
-    height: 320px;
-  }
-  .mosaic-half {
-    min-height: 200px;
-  }
-  .mosaic-card-desc {
-    opacity: 1;
-    transform: none;
+  .mosaic-card {
+    height: 350px;
   }
   .mosaic-trust-strip {
     padding: 1.5rem;
     gap: 1.25rem;
+    align-items: stretch;
+    text-align: center;
   }
   .trust-strip-divider {
     display: none;
-  }
-}
-
-@media (max-width: 560px) {
-  .mosaic-trust-strip {
-    flex-direction: column;
-    align-items: stretch;
-    text-align: center;
   }
   .trust-strip-item {
     flex-direction: row;
