@@ -278,6 +278,328 @@
   </section>
 
   <!-- ==========================================
+       HOME 2 UNIQUE SECTION — EXECUTIVE CARE PATHWAY & DIAGNOSTIC NAVIGATOR
+       ========================================== -->
+  <section class="executive-pathway-section">
+    <div class="container">
+      <div class="pathway-header reveal-on-scroll">
+        <div class="pathway-eyebrow-badge">
+          <span class="pulse-dot"></span>
+          <span>EXECUTIVE PRECISION CARE MATRIX</span>
+        </div>
+        <h2 class="section-title">Interactive 5-Stage Diagnostic & Treatment Journey</h2>
+        <p class="section-subtitle">
+          Explore our structured, highly confidential medical pathway designed for executive men's health, urology assessments, and longitudinal wellness.
+        </p>
+      </div>
+
+      <div class="pathway-interactive-wrapper reveal-on-scroll">
+        <!-- Left Side: Interactive Stage Selector Steps -->
+        <div class="pathway-steps-column" role="tablist" aria-label="Executive Diagnostic Care Stages">
+          <!-- Active Line Connector Progress -->
+          <div class="pathway-connector-line">
+            <div class="pathway-progress-fill" id="pathway-progress-bar"></div>
+          </div>
+
+          <!-- Step 1 -->
+          <button class="pathway-step-btn active" data-stage="1" role="tab" aria-selected="true" aria-controls="stage-panel">
+            <div class="step-badge-node">
+              <span class="node-number">01</span>
+              <span class="node-ring"></span>
+            </div>
+            <div class="step-info">
+              <span class="step-phase-tag">PHASE 01 • 30 MINS</span>
+              <h3 class="step-title">Confidential Intake & History</h3>
+              <p class="step-summary">Soundproof suite consultation & health timeline mapping.</p>
+            </div>
+            <svg class="step-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <!-- Step 2 -->
+          <button class="pathway-step-btn" data-stage="2" role="tab" aria-selected="false" aria-controls="stage-panel">
+            <div class="step-badge-node">
+              <span class="node-number">02</span>
+              <span class="node-ring"></span>
+            </div>
+            <div class="step-info">
+              <span class="step-phase-tag">PHASE 02 • 45 MINS</span>
+              <h3 class="step-title">Advanced Biomarker & Imaging</h3>
+              <p class="step-summary">In-suite high-resolution ultrasound & flow profiling.</p>
+            </div>
+            <svg class="step-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <!-- Step 3 -->
+          <button class="pathway-step-btn" data-stage="3" role="tab" aria-selected="false" aria-controls="stage-panel">
+            <div class="step-badge-node">
+              <span class="node-number">03</span>
+              <span class="node-ring"></span>
+            </div>
+            <div class="step-info">
+              <span class="step-phase-tag">PHASE 03 • 45 MINS</span>
+              <h3 class="step-title">Senior Consultant Review</h3>
+              <p class="step-summary">1-on-1 multi-parametric analysis & clear opinion.</p>
+            </div>
+            <svg class="step-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <!-- Step 4 -->
+          <button class="pathway-step-btn" data-stage="4" role="tab" aria-selected="false" aria-controls="stage-panel">
+            <div class="step-badge-node">
+              <span class="node-number">04</span>
+              <span class="node-ring"></span>
+            </div>
+            <div class="step-info">
+              <span class="step-phase-tag">PHASE 04 • CUSTOMIZED</span>
+              <h3 class="step-title">Tailored Care Blueprint</h3>
+              <p class="step-summary">Targeted evidence-based therapy & vitality roadmap.</p>
+            </div>
+            <svg class="step-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <!-- Step 5 -->
+          <button class="pathway-step-btn" data-stage="5" role="tab" aria-selected="false" aria-controls="stage-panel">
+            <div class="step-badge-node">
+              <span class="node-number">05</span>
+              <span class="node-ring"></span>
+            </div>
+            <div class="step-info">
+              <span class="step-phase-tag">PHASE 05 • LONGITUDINAL</span>
+              <h3 class="step-title">Proactive Vitality Monitoring</h3>
+              <p class="step-summary">Continuous health tracking & encrypted check-ins.</p>
+            </div>
+            <svg class="step-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+        <!-- Right Side: Dynamic Stage Visual & Detail Panel -->
+        <div class="pathway-display-column" id="stage-panel" role="tabpanel">
+          <div class="pathway-display-card">
+            <!-- Card Header Badge Bar -->
+            <div class="display-card-header">
+              <span class="display-phase-pill" id="display-phase-tag">PHASE 01 OF 05</span>
+              <span class="display-privacy-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span id="display-privacy-text">100% Soundproof Suite</span>
+              </span>
+            </div>
+
+            <!-- Card Content Body -->
+            <div class="display-card-body">
+              <h3 class="display-stage-title" id="display-stage-title">Confidential Intake & Medical History Mapping</h3>
+              <p class="display-stage-desc" id="display-stage-desc">
+                Your consultation begins in a dedicated private suite. We perform an exhaustive review of urinary patterns, sleep disruption, stress indicators, and family medical background with total discretion.
+              </p>
+
+              <!-- Diagnostic Key Highlights Grid -->
+              <div class="display-highlights-grid">
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div>
+                    <strong id="hl-1-title">Zero Waiting Room Access</strong>
+                    <span id="hl-1-sub">Direct escort to executive private consultation suite.</span>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div>
+                    <strong id="hl-2-title">Symptom Timeline Audit</strong>
+                    <span id="hl-2-sub">Comprehensive tracking of urinary flow & energy shifts.</span>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div>
+                    <strong id="hl-3-title">Preliminary Health Dossier</strong>
+                    <span id="hl-3-sub">Encrypted medical baseline established on day one.</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Animated Metric Radar Bar -->
+              <div class="display-metric-widget">
+                <div class="metric-widget-header">
+                  <span class="metric-label">CLINICAL PRECISION INDEX</span>
+                  <span class="metric-value" id="metric-value-num">98.5% Accuracy</span>
+                </div>
+                <div class="metric-track-bg">
+                  <div class="metric-fill-bar" id="metric-fill-bar" style="width: 98.5%;"></div>
+                </div>
+              </div>
+
+              <!-- Action Bar -->
+              <div class="display-card-footer">
+                <button class="btn btn-primary" data-open-modal="appointment-modal">
+                  <span>Book This Stage Consultation</span>
+                  <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <div class="display-duration-tag">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span id="display-duration-text">Est. Duration: 30 Minutes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const stageData = {
+        1: {
+          phase: "PHASE 01 OF 05",
+          privacy: "100% Soundproof Suite",
+          title: "Confidential Intake & Medical History Mapping",
+          desc: "Your consultation begins in a dedicated private suite. We perform an exhaustive review of urinary patterns, sleep disruption, stress indicators, and family medical background with total discretion.",
+          hl1Title: "Zero Waiting Room Access",
+          hl1Sub: "Direct escort to executive private consultation suite.",
+          hl2Title: "Symptom Timeline Audit",
+          hl2Sub: "Comprehensive tracking of urinary flow & energy shifts.",
+          hl3Title: "Preliminary Health Dossier",
+          hl3Sub: "Encrypted medical baseline established on day one.",
+          metricNum: "98.5% Baseline Accuracy",
+          metricPercent: "98.5%",
+          duration: "Est. Duration: 30 Minutes",
+          progressHeight: "0%"
+        },
+        2: {
+          phase: "PHASE 02 OF 05",
+          privacy: "In-Suite Diagnostic Suite",
+          title: "Advanced Biomarker & High-Res Ultrasound",
+          desc: "Targeted point-of-care diagnostics including high-definition pelvic ultrasound, non-invasive uroflowmetry velocity recording, and specialized hormonal & prostate biomarker sampling.",
+          hl1Title: "Point-of-Care Ultrasound",
+          hl1Sub: "Immediate high-resolution tissue & flow visualization.",
+          hl2Title: "Uroflowmetry Analysis",
+          hl2Sub: "Quantitative measurement of peak flow & bladder volume.",
+          hl3Title: "Rapid Biomarker Panel",
+          hl3Sub: "PSA, hormonal, and metabolic screening results.",
+          metricNum: "99.2% Diagnostic Clarity",
+          metricPercent: "99.2%",
+          duration: "Est. Duration: 45 Minutes",
+          progressHeight: "25%"
+        },
+        3: {
+          phase: "PHASE 03 OF 05",
+          privacy: "1-on-1 Specialist Panel",
+          title: "Senior Urologist Review & Case Analysis",
+          desc: "Direct consultation with our senior urological consultant to analyze imaging, review diagnostic data, evaluate risk scores, and answer every question in plain, clear medical language.",
+          hl1Title: "Consultant-Led Interpretation",
+          hl1Sub: "Detailed review of imaging scans and fluid metrics.",
+          hl2Title: "Jargon-Free Explanation",
+          hl2Sub: "Transparent medical clarity with visual diagnostic aids.",
+          hl3Title: "Multi-Specialist Input",
+          hl3Sub: "Collaborative review for complex or reproductive cases.",
+          metricNum: "100% Specialist-Led Review",
+          metricPercent: "100%",
+          duration: "Est. Duration: 45 Minutes",
+          progressHeight: "50%"
+        },
+        4: {
+          phase: "PHASE 04 OF 05",
+          privacy: "Personal Case Management",
+          title: "Tailored Care Blueprint & Targeted Therapy",
+          desc: "We co-create a personalized therapeutic protocol. From precision medication management and targeted lifestyle adjustments to advanced minimally invasive procedures, your plan is built for results.",
+          hl1Title: "Evidence-Based Roadmap",
+          hl1Sub: "Tailored protocols for BPH, fertility, or vitality.",
+          hl2Title: "Minimally Invasive Focus",
+          hl2Sub: "Prioritizing outpatient, rapid-recovery clinical options.",
+          hl3Title: "Dedicated Case Coordinator",
+          hl3Sub: "Single confidential contact point for all follow-ups.",
+          metricNum: "96.4% Patient Goal Fulfillment",
+          metricPercent: "96.4%",
+          duration: "Customized Protocol Plan",
+          progressHeight: "75%"
+        },
+        5: {
+          phase: "PHASE 05 OF 05",
+          privacy: "Encrypted Portal Access",
+          title: "Proactive Longitudinal Vitality Monitoring",
+          desc: "Healthcare doesn't stop after the visit. Enjoy ongoing peace of mind with scheduled biomarker check-ins, direct encrypted messaging with your clinical team, and long-term preventive optimization.",
+          hl1Title: "Scheduled Re-Assessments",
+          hl1Sub: "Quarterly or semi-annual biomarker tracking.",
+          hl2Title: "Secure Digital Records",
+          hl2Sub: "24/7 encrypted access to diagnostic history.",
+          hl3Title: "Continuous Wellness Support",
+          hl3Sub: "Proactive care adjustments as your lifestyle evolves.",
+          metricNum: "99.8% Long-Term Continuity",
+          metricPercent: "99.8%",
+          duration: "Ongoing Longitudinal Care",
+          progressHeight: "100%"
+        }
+      };
+
+      const stepBtns = document.querySelectorAll('.pathway-step-btn');
+      const progressFill = document.getElementById('pathway-progress-bar');
+      const displayCard = document.querySelector('.pathway-display-card');
+
+      if (stepBtns.length && displayCard) {
+        stepBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const stageNum = btn.getAttribute('data-stage');
+            const data = stageData[stageNum];
+            if (!data) return;
+
+            stepBtns.forEach(b => {
+              b.classList.remove('active');
+              b.setAttribute('aria-selected', 'false');
+            });
+            btn.classList.add('active');
+            btn.setAttribute('aria-selected', 'true');
+
+            if (progressFill) progressFill.style.height = data.progressHeight;
+
+            displayCard.classList.remove('switching');
+            void displayCard.offsetWidth;
+            displayCard.classList.add('switching');
+
+            const elPhase = document.getElementById('display-phase-tag');
+            const elPrivacy = document.getElementById('display-privacy-text');
+            const elTitle = document.getElementById('display-stage-title');
+            const elDesc = document.getElementById('display-stage-desc');
+            
+            const elHl1Title = document.getElementById('hl-1-title');
+            const elHl1Sub = document.getElementById('hl-1-sub');
+            const elHl2Title = document.getElementById('hl-2-title');
+            const elHl2Sub = document.getElementById('hl-2-sub');
+            const elHl3Title = document.getElementById('hl-3-title');
+            const elHl3Sub = document.getElementById('hl-3-sub');
+
+            const elMetricNum = document.getElementById('metric-value-num');
+            const elMetricBar = document.getElementById('metric-fill-bar');
+            const elDuration = document.getElementById('display-duration-text');
+
+            if (elPhase) elPhase.textContent = data.phase;
+            if (elPrivacy) elPrivacy.textContent = data.privacy;
+            if (elTitle) elTitle.textContent = data.title;
+            if (elDesc) elDesc.textContent = data.desc;
+            
+            if (elHl1Title) elHl1Title.textContent = data.hl1Title;
+            if (elHl1Sub) elHl1Sub.textContent = data.hl1Sub;
+            if (elHl2Title) elHl2Title.textContent = data.hl2Title;
+            if (elHl2Sub) elHl2Sub.textContent = data.hl2Sub;
+            if (elHl3Title) elHl3Title.textContent = data.hl3Title;
+            if (elHl3Sub) elHl3Sub.textContent = data.hl3Sub;
+
+            if (elMetricNum) elMetricNum.textContent = data.metricNum;
+            if (elMetricBar) elMetricBar.style.width = data.metricPercent;
+            if (elDuration) elDuration.textContent = data.duration;
+          });
+        });
+      }
+    });
+  </script>
+
+  <!-- ==========================================
        HOME 2 SECTION 04 — SPECIALIST CLINICIANS
        ========================================== -->
   <section style="padding: 6.5rem 0; background-color: var(--color-bg-card);">
